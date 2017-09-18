@@ -4,7 +4,7 @@ minVal = 1
 maxVal = 6
 
 randNum = randint(minVal, maxVal)
-print(randNum)
+#print(randNum)
 
 
 def isNumber(num):
@@ -26,7 +26,7 @@ while True:
 			enterString = input("Guess the number\n")
 		else: #correct guess
 			print("You have guessed correctly!\n")
-			break;
+			break
 	else: #bad input
 		print("You have not entered a number!\n")
 		enterString = input("Guess the number\n")
